@@ -3,7 +3,7 @@
 %bcond_without	license_agreement	# generates package
 
 %define		base_name	adobe-air
-%define		rel 1
+%define		rel 2
 Summary:	Adobe Integrated Runtime
 %if %{with license_agreement}
 Name:		%{base_name}
@@ -135,7 +135,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) "/opt/Adobe AIR/Versions/1.0/Resources/airappinstaller"
 %attr(755,root,root) "/opt/Adobe AIR/Versions/1.0/Resources/appentry"
 %attr(755,root,root) "/opt/Adobe AIR/Versions/1.0/Resources/installCertificate"
-%attr(755,root,root) "/opt/Adobe AIR/Versions/1.0/Resources/lib*.so
+%attr(755,root,root) /opt/Adobe*AIR/Versions/1.0/Resources/lib*.so
 %attr(755,root,root) "/opt/Adobe AIR/Versions/1.0/Resources/rpmbuilder"
 "/opt/Adobe AIR/Versions/1.0/Resources/AdobeAIR.png"
 "/opt/Adobe AIR/Versions/1.0/Resources/curl-ca-bundle.crt"
