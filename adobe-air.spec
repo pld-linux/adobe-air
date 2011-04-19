@@ -15,7 +15,7 @@ Release:	%{rel}%{?with_license_agreement:wla}
 License:	Commercial, non-distributable
 Group:		X11/Applications/Multimedia
 %if %{with license_agreement}
-Source0:	http://airdownload.adobe.com/air/lin/download/latest/AdobeAIRInstaller.bin
+Source0:	http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
 # NoSource0-md5:	9a751473ff4386a72f65dc7decc56fb9
 NoSource:	0
 %endif
