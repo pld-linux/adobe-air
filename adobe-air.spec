@@ -10,13 +10,13 @@ Name:		%{base_name}
 %else
 Name:		%{base_name}-installer
 %endif
-Version:	2.6.0.19140
+Version:	2.6.0.19170
 Release:	%{rel}%{?with_license_agreement:wla}
 License:	Commercial, non-distributable
 Group:		X11/Applications/Multimedia
 %if %{with license_agreement}
 Source0:	http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
-# NoSource0-md5:	9a751473ff4386a72f65dc7decc56fb9
+# NoSource0-md5:	a91369be7ab40e3c5d5bc9fb02b95041
 NoSource:	0
 %endif
 Source2:	http://svn.pld-linux.org/svn/license-installer/license-installer.sh
