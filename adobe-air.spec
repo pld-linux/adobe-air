@@ -87,7 +87,7 @@ cp -a build/var/opt/Adobe\ AIR $RPM_BUILD_ROOT%{_var}/opt
 %{__mv} $RPM_BUILD_ROOT{/opt/Adobe\ AIR/Versions/1.0/Resources/support/icons/*,%{_iconsdir}/hicolor}
 %{__mv} $RPM_BUILD_ROOT{/opt/Adobe\ AIR/Versions/1.0/Resources/support/AdobeAIR.desktop,%{_desktopdir}}
 %{__mv} $RPM_BUILD_ROOT{/opt/Adobe\ AIR/Versions/1.0/Resources/support/AdobeAIR.xml,%{_datadir}/mime/packages}
-%{__rm} -r $RPM_BUILD_ROOT/opt/Adobe\ AIR/Versions/1.0/Resources/{appinstall,control,xdg-utils,{appinstall,control}.spec,application.d{esktop,irectory},pkcon_air,setup.deb}
+%{__rm} -r $RPM_BUILD_ROOT/opt/Adobe\ AIR/Versions/1.0/Resources/{control,control.spec,pkcon_air}
 %endif
 
 %clean
