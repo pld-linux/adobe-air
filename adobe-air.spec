@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_without	license_agreement	# generates package
 
-%define		base_name	adobe-air
+%define		base_name	adobeair
 %define		rel 2
 Summary:	Adobe Integrated Runtime
 %if %{with license_agreement}
